@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PesquisaCEP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <h1>Cadastro de Endereço <i class="fas fa-map-marked-alt"></i></h1>
+    <form>
+        <label for="cep">CEP: </label>
+        <input type="text" name="cep" id="cep" />
+        <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade" id="cidade" />
+        <label for="estado">Estado: </label>
+        <input type="text" name="estado" id="estado" />
+        <label for="logradouro">Logradouro: </label>
+        <input type="text" name="logradouro" id="logradouro" />
+        <label for="numeroLogradouro">Número: </label>
+        <input type="text" name="numeroLogradouro" id="numeroLogradouro" />
+        <label for="bairro">Bairro: </label>
+        <input type="text" name="bairro" id="bairro" />
+        <label for="complemento">Complemento: </label>
+        <input type="text" name="complemento" id="complemento" />
+        <div id="botoes">
+            <button type="reset" id="resetForm">Resetar formulário</button>
+            <button type="submit" id="enviarForm">Enviar</button>
+        </div>
+        <div id="mensagemUsuario"></div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
